@@ -14,6 +14,17 @@ body{
 /* estilo do cabeçalho*/
 
 header{
-    background-color:#ffff;/*fundo branco para o cabeçalho/*
+    background-color:#ffff;/*fundo branco para o cabeçalho*/
     
+}
+
+/*Seções Gerais*/
+
+section{
+    padding-bottom: 5rem; /*Espaçamento inferior grande para seçoes*/
+}
+/*links de navegaçao*/
+.nav-link{
+    color:#cb6d43; /*cor marrom-alaranjada para os link*/
+    font-weight: 600;/*texto em negrito*/
 }
