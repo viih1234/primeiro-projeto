@@ -10,3 +10,10 @@ body{
     font-family: 'montserrat';/* fonte principal do site*/
     
 }
+
+/* estilo do cabeçalho*/
+
+header{
+    background-color:#ffff;/*fundo branco para o cabeçalho/*
+    
+}
