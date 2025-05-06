@@ -27,4 +27,36 @@ section{
 .nav-link{
     color:#cb6d43; /*cor marrom-alaranjada para os link*/
     font-weight: 600;/*texto em negrito*/
+
+}
+.incio-fundo{
+    background-image: url('imag/4965007.jpg');
+    background-position: right;
+    border-radius: 80px;
+    width: 100%;
+    height: 606px;
+    padding: 40;
+    margin:0 auto;
+}
+/*posicionamento para a imagem a direita*/
+.img-inicio{
+    position: absolute;
+    right: 0;
+    top: 18rem;
+    width: 45rem;
+    height: auto;
+}
+.esquerda-conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:1rem;
+}
+.botao-inicio{
+    background-color: var(--laranja-claro);
+    border-radius: 30px;
+    border: none;
+    width: 14em;
+    height: 3em;
+    align-content: center;
 }
