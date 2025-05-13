@@ -1,58 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap&#39;);
-@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap&#39;');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap&#39;);
 
 :root {
-    --laranja-claro:#ff862A;/*definir uma variavel CSS para a cor laranja*/
+    --laranja-claro: #FF862A; /*Define uma variável CSS para cor laranja*/
 }
 
 body{
-    font-size:1rem; /*tamanho de fonte base (geralmente 16px)*/
-    font-family: 'montserrat';/* fonte principal do site*/
-    
+    font-size: 16px; /*Definir o tamanho da fonte base*/
+    font-family: 'Montserrat';/*Define o tamnho da fonte principal do site*/
 }
 
-/* estilo do cabeçalho*/
-
 header{
-    background-color:#ffff;/*fundo branco para o cabeçalho*/
-    
+    background-color: #ffffff;/*Fundo branco para o cabeçalho*/  
 }
 
 /*Seções Gerais*/
-
 section{
-    padding-bottom: 5rem; /*Espaçamento inferior grande para seçoes*/
+    padding-bottom: 5rem; /*Espaçamento inferior grande para seções*/
 }
-/*links de navegaçao*/
-.nav-link{
-    color:#cb6d43; /*cor marrom-alaranjada para os link*/
-    font-weight: 600;/*texto em negrito*/
 
+/*Links de Navegação*/
+.nav-link{
+    color: #CB6D43; /*Cor marrom-alaranjada para os link*/
+    font-weight: 600; /*Texto em negrito*/
 }
-.incio-fundo{
-    background-image: url('imag/4965007.jpg');
+.inicio-fundo{
+    background-image: url('img/4965007.jpg');
+    background-size: cover;
     background-position: right;
     border-radius: 80px;
-    width: 100%;
+    width: 100% ;
     height: 606px;
     padding: 40;
-    margin:0 auto;
+    margin: 0 auto;
 }
-/*posicionamento para a imagem a direita*/
+
+/*posicionamento para a imagem à direita*/
 .img-inicio{
     position: absolute;
     right: 0;
     top: 18rem;
-    width: 45rem;
-    height: auto;
+    width:45rem;
+    height:auto;
 }
+
 .esquerda-conteudo{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap:1rem;
 }
-.botao-inicio{
+
+.botao-inicio {
     background-color: var(--laranja-claro);
     border-radius: 30px;
     border: none;
